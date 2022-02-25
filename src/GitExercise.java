@@ -12,9 +12,23 @@ public class GitExercise {
 
     }
 
+    void askAboutAge() {
+
+        int age;
+
+        System.out.print("Hvor gammel er du? ");
+        age = in.nextInt();
+        System.out.println("Du er "+ age + " år gammel");
+    }
+
+    void go() {
+        greet();
+        askAboutAge();
+    }
+
     public static void main(String[] args) {
 
-        new GitExercise().greet();
+        new GitExercise().go();
         System.out.println("It Works!");
     }
 }
