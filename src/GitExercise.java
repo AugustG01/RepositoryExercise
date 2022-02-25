@@ -12,7 +12,7 @@ public class GitExercise {
 
     }
 
-    void askAboutAge() {
+    void askAge() {
 
         int age;
 
@@ -23,7 +23,7 @@ public class GitExercise {
 
     void go() {
         greet();
-        askAboutAge();
+        askAge();
     }
 
     public static void main(String[] args) {
